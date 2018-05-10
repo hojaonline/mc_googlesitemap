@@ -1,0 +1,45 @@
+
+plugin.tx_mcgooglesitemap_contents {
+	view {
+		# cat=plugin.tx_mcgooglesitemap_contents/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:mc_googlesitemap/Resources/Private/Templates/
+		# cat=plugin.tx_mcgooglesitemap_contents/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:mc_googlesitemap/Resources/Private/Partials/
+		# cat=plugin.tx_mcgooglesitemap_contents/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:mc_googlesitemap/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_mcgooglesitemap_contents//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
+
+plugin.tx_mcgooglesitemap_index {
+	view {
+		# cat=plugin.tx_mcgooglesitemap_index/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:mc_googlesitemap/Resources/Private/Templates/
+		# cat=plugin.tx_mcgooglesitemap_index/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:mc_googlesitemap/Resources/Private/Partials/
+		# cat=plugin.tx_mcgooglesitemap_index/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:mc_googlesitemap/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_mcgooglesitemap_index//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
+
+plugin.tx_mcgooglesitemap_pages {
+	view {
+		# cat=plugin.tx_mcgooglesitemap_pages/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:mc_googlesitemap/Resources/Private/Templates/
+		# cat=plugin.tx_mcgooglesitemap_pages/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:mc_googlesitemap/Resources/Private/Partials/
+		# cat=plugin.tx_mcgooglesitemap_pages/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:mc_googlesitemap/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_mcgooglesitemap_pages//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

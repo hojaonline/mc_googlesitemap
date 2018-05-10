@@ -1,0 +1,42 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>settings</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.pageslive_index>
+                        <TCEforms>
+                            <label>Selected Pages</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>db</internal_type>
+                                <allowed>pages</allowed>
+                                <minitems>1</minitems>
+                                <maxitems>1000</maxitems>
+                                <size>3</size>
+                            </config>
+                        </TCEforms>
+                    </settings.pageslive_index>
+                    <settings.tableslive_index>
+                        <TCEforms>
+                            <label>Table where the contents live</label>
+                            <config>
+                                <type>select</type>
+                                <itemsProcFunc>Pits\McGooglesitemap\Utility\Main->populateItems</itemsProcFunc>
+                                <renderType>selectSingle</renderType>
+                                <renderType>selectSingle</renderType>
+                                <minitems>0</minitems>
+                                <maxitems>1</maxitems>
+                                <size>1</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.tableslive_index>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

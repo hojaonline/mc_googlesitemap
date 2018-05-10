@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-13T15:49:07Z" product-name="mc_googlesitemap">
+		<header/>
+		<body>
+			<trans-unit id="tx_mc_googlesitemap_flexform_url">
+				<source>Url arguments need to reach the content. We can use tags. The tags are all the fields of table with ### at the begin and ### at the end. E.g.: my url 'http://testsite.test/index.php?id=27&amp;mid=2054&amp;cHash=c637cf4404', this field must be: '&amp;mid=###uid###'.</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
+

@@ -1,0 +1,70 @@
+
+plugin.tx_mcgooglesitemap_contents {
+	view {
+		templateRootPaths.0 = {$plugin.tx_mcgooglesitemap_contents.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_mcgooglesitemap_contents.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_mcgooglesitemap_contents.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_mcgooglesitemap_contents.persistence.storagePid}
+	}
+}
+
+plugin.tx_mcgooglesitemap_index {
+	view {
+		templateRootPaths.0 = {$plugin.tx_mcgooglesitemap_index.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_mcgooglesitemap_index.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_mcgooglesitemap_index.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_mcgooglesitemap_index.persistence.storagePid}
+	}
+}
+
+plugin.tx_mcgooglesitemap_pages {
+	view {
+		templateRootPaths.0 = {$plugin.tx_mcgooglesitemap_pages.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_mcgooglesitemap_pages.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_mcgooglesitemap_pages.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_mcgooglesitemap_pages.persistence.storagePid}
+	}
+}
+
+plugin.tx_mcgooglesitemap._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-pits-googlesitemap table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-pits-googlesitemap table th {
+		font-weight:bold;
+	}
+
+	.tx-pits-googlesitemap table td {
+		vertical-align:top;
+	}
+
+	.typo3-messages .message-error {
+		color:red;
+	}
+
+	.typo3-messages .message-ok {
+		color:green;
+	}
+
+)
+
+
+
