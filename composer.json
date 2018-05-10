@@ -2,7 +2,7 @@
     "name": "hojaonline/mc_googlesitemap",
     "description": "Google Site Map Extension for Pages and Content Element Types",
     "type": "typo3-cms-extension",
-    "version": "8.3.8",
+    "version": "8.7.14",
     "license": "GPL-3.0+",
     "require": {
         "typo3/cms-core": ">=6.2.0,<9.0.0",
