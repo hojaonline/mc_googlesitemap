@@ -1,5 +1,5 @@
 {
-    "name": "pits/mc_googlesitemap",
+    "name": "hojaonline/mc_googlesitemap",
     "description": "Google Site Map Extension for Pages and Content Element Types",
     "type": "typo3-cms-extension",
     "require": {
